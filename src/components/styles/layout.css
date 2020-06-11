@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* yellow color */
+:root {
+  --yellow: #FFE193;
+  --pink: #EC3B95;
+  --orange: #FAA85F;
+  --wine: #862065;
+ }
+
+h1,
+h2,
+h3 {
+  font-family: 'Dancing Script', cursive !important;
+}
+
+a, p, h4, h5 {
+  font-family: 'Dosis', sans-serif !important;
+}
+
+/* lists */
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  color: var(--pink);
+  transition: all .2s;
+}
+
+ul li a:hover {
+  color: var(--wine);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+/* links */
+
+p a{
+  color: var(--pink);
+  transition: all .2s;;
+}
+
+p a:hover{
+  color: var(--wine);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+
+/* colors */
+
+.yellow{
+  color: var(--yellow)
+}
+
+.pink{
+  color: var(--pink)
+}
+
+.orange{
+  color: var(--orange)
+}
+
+.wine{
+  color: var(--wine)
+}
+
+/* solid backgrounds */
+.bg-white{
+  
+}
+
+/* gradient backgrounds */
+.bg-g-wine{
+  background: linear-gradient(to right, rgba(134, 32, 101, .8), rgba(134, 32, 101, .8));
+  height: 100%;
+  width: 100%;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
+  }
+
+.text-shadow-wine{
+  text-shadow: 0.2rem 0.2rem 0.1rem rgba(134, 32, 101) !important;
+}
