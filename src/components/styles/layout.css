@@ -22,6 +22,28 @@ a, p, h4, h5 {
   font-family: 'Dosis', sans-serif !important;
 }
 
+/* product styles */
+.tarjeta{
+  margin: 1rem 0
+}
+
+.tarjeta-contenedor-img{
+  width: 100%;
+  position: relative;
+}
+
+.tarjeta img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid var(--wine);
+  border-radius: .5rem;
+}
+
+.tarjeta-cuerpo{
+  margin: 1rem auto;
+}
+
 /* lists */
 
 ul li{
@@ -73,7 +95,11 @@ p a:hover{
 
 /* solid backgrounds */
 .bg-white{
-  
+  background: white;
+}
+
+.bg-yellow{
+  background: var(--yellow)
 }
 
 /* gradient backgrounds */
